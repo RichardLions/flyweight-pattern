@@ -3,4 +3,36 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="flyweightexamples.h" />
+    <ClInclude Include="flyweighttypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{ee4ed11d-4c0c-43bc-8505-4e8a401a5b3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include=".gitattributes">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include=".gitignore">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include=".runsettings">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="README.md">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="vcpkg.json">
+      <Filter>Misc</Filter>
+    </None>
+    <None Include="vcpkg-configuration.json">
+      <Filter>Misc</Filter>
+    </None>
+  </ItemGroup>
 </Project>
